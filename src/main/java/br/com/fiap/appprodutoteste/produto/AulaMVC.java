@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({"br.com.fiap.appprodutoteste.produto.controllers, br.com.fiap.appprodutoteste.produto.config"})
-public class ProdutoApplication {
+public class AulaMVC {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutoApplication.class, args);
+		SpringApplication.run(AulaMVC.class, args);
 	}
 
 }
